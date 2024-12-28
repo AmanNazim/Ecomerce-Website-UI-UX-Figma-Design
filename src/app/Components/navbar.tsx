@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <div className="lg:h-[48px] mx-[13px] flex justify-center items-center lg:mt-[60px] lg:gap-[40px] x-sm:h-[24px] x-sm:mt-[54px] x-sm:justify-between x-sm:mx-[16px] sm:h-[34px]">
+    <div className="w-auto lg:h-[48px] mx-[13px] flex justify-center items-center lg:mt-[60px] lg:gap-[40px] x-sm:h-[24px] x-sm:mt-[54px] x-sm:justify-between x-sm:mx-[16px] sm:h-[34px]">
       <div className="flex gap-[16px] items-center">
         <div className="h-[24px] w-[24px] mob-tab">
           <Image

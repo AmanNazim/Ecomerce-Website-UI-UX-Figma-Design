@@ -31,7 +31,7 @@ export default function HeroSection() {
             FIND CLOTHES THAT MATCHES YOUR STYLE
           </h1>
         </div>
-        <div className="absolute lg:w-[550px] h-[33px] lg:top-[104px] left-[13px] x-sm:w-full x-sm:h-[50px] x-sm:mt-[153px] sm:w-full sm:top-[10px]">
+        <div className="absolute lg:w-[550px] h-[33px] lg:top-[104px] left-[13px] x-sm:w-[300px] x-sm:h-[50px] x-sm:mt-[153px] sm:w-full sm:top-[10px]">
           <h2 className="text-[#000000] text-opacity-[60%] lg:text-[16px] lg:font-[400] lg:leading-[22px] x-sm:text-[14px] x-sm:font-[400] x-sm:leading-[20px] sm:text-[15px] sm:font-[400] sm:leading-[22px]">
             Browse through our diverse range of meticulously crafted garments,
             designed to bring out your individuality and cater to your sense of
@@ -96,7 +96,7 @@ export default function HeroSection() {
             priority={true}
           />
         </div>
-        <div className="absolute lg:w-[104px] lg:h-[104px] lg:top-[70px] lg:left-[1100px] x-sm:left-[290px] x-sm:top-[465px] x-sm:w-[74px] x-sm:h-[74px] sm:w-[80px] sm:h-[80px] sm:top-[30px] sm:left-[690px]">
+        <div className="absolute lg:w-[104px] lg:h-[104px] lg:top-[70px] lg:left-[1100px] x-sm:left-[280px] x-sm:top-[465px] x-sm:w-[74px] x-sm:h-[74px] sm:w-[80px] sm:h-[80px] sm:top-[30px] sm:left-[680px]">
           <Image
             className="h-full w-full"
             src="/icon-images/hero-star2.svg"
