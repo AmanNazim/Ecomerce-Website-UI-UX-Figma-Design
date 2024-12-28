@@ -217,10 +217,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="flex justify-center flex-wrap lg:gap-[20px] lg:mt-[64px] sm:gap-[16px] sm:mt-[32px] sm:mx-[26px] x-sm:gap-[16px] x-sm:mt-[28px] x-sm:mx-[24px]">
-            <Link
-              href="http://localhost:3000/casual"
-              className="lg:w-auto x-sm:w-full sm:w-auto"
-            >
+            <Link href="/casual" className="lg:w-auto x-sm:w-full sm:w-auto">
               <div className="relative bg-[#FFFFFF] rounded-[20px] overflow-hidden lg:h-[289px] lg:w-[407px] sm:h-[200px] sm:w-[407px] x-sm:h-[190px] x-sm:w-full ">
                 <Image
                   src="/images/casual.svg"

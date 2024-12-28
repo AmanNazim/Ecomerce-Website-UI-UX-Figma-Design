@@ -16,7 +16,7 @@ const NavBar = () => {
           />
         </div>
         <div className="lg:h-[22px] lg:w-[160px] flex items-center x-sm:h-[18px] x-sm:w-[126px]">
-          <Link href="http://localhost:3000/">
+          <Link href="/">
             <Image
               src="/name-images/SHOP.CO.svg"
               width={160}
@@ -31,7 +31,7 @@ const NavBar = () => {
       </div>
       <div className="w-[321px] h-[22px] res-div lg:flex justify-between">
         <div className="w-[57px] h-[22px] flex justify-between items-center">
-          <Link href="http://localhost:3000/shop-men-t-shirts">
+          <Link href="/shop-men-t-shirts/">
             <h2 className="text-[16px] font-[400] leading-[21.6px]">Shop</h2>
           </Link>
           <Image
@@ -78,7 +78,7 @@ const NavBar = () => {
             priority={true}
           />
         </div>
-        <Link href="http://localhost:3000/cart">
+        <Link href="/cart">
           <div className="w-[24px] h-[24px]">
             <Image
               src="/icon-images/cart-icon.svg"
