@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} mx-0 w-full antialiased bg-[#FFFFFF] text-[#000000] overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} mx-0 w-screen antialiased bg-[#FFFFFF] text-[#000000] overflow-x-hidden`}
       >
         <header>
           <TopNavBar
