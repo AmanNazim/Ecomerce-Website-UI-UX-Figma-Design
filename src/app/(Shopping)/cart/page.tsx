@@ -30,7 +30,7 @@ export default function CartPage() {
         <div className="flex lg:mt-[24px] lg:flex-row sm:mt-[22px] x-sm:mt-[20px] x-sm:flex-col gap-[20px]">
           <div className="h-auto w-full border-[#000000] border-[1px] border-opacity-[10%] rounded-[20px] flex flex-col lg:gap-[24px] lg:px-[24px] lg:py-[20px] sm:gap-[20px] sm:p-[18px] x-sm:gap-[16px] x-sm:p-[14px]">
             <CartItem
-              ItemImg="images/gradient-t-shirt.svg"
+              ItemImg="images/gradient-shirt.svg"
               ItemName="Gradient Graphic T-shirt"
               ItemSize="Large"
               ItemColor="White"

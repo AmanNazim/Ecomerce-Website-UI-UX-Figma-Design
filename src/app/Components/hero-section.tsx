@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Btn from "./button";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -31,7 +32,7 @@ export default function HeroSection() {
             FIND CLOTHES THAT MATCHES YOUR STYLE
           </h1>
         </div>
-        <div className="absolute lg:w-[550px] h-[33px] lg:top-[104px] left-[13px] x-sm:w-[320px] x-sm:h-[50px] x-sm:mt-[153px] sm:w-full sm:top-[10px]">
+        <div className="absolute lg:w-[550px] h-[33px] lg:top-[104px] left-[13px] x-sm:w-[3px] x-sm:h-[50px] x-sm:mt-[153px] sm:w-full sm:top-[10px]">
           <h2 className="text-[#000000] text-opacity-[60%] lg:text-[16px] lg:font-[400] lg:leading-[22px] x-sm:text-[14px] x-sm:font-[400] x-sm:leading-[20px] sm:text-[15px] sm:font-[400] sm:leading-[22px]">
             Browse through our diverse range of meticulously crafted garments,
             designed to bring out your individuality and cater to your sense of
@@ -39,21 +40,23 @@ export default function HeroSection() {
           </h2>
         </div>
         <div className="absolute lg:top-[102px] left-[13px] lg:h-[52px] lg:w-[210px] x-sm:mt-[229px] x-sm:w-full x-sm:pr-[24px] sm:top-[10px] sm:h-[50px] sm:w-[220px] ">
-          <Btn
-            BtnTxt="Shop Now"
-            BtnCol="#000000"
-            BtnTxtCol="#FFFFFF"
-            BtnH="full"
-            BtnW="full"
-            BtnTxtS="16px"
-            BtnFW="500"
-            BtnDivH="52px"
-            BtnDivW="210px"
-            SmDH="[52px]"
-            SmDW="full"
-            BtnDivF="flex"
-            BtnDivJC="justify-center"
-          />
+          <Link href="/shop-men-t-shirts/">
+            <Btn
+              BtnTxt="Shop Now"
+              BtnCol="#000000"
+              BtnTxtCol="#FFFFFF"
+              BtnH="full"
+              BtnW="full"
+              BtnTxtS="16px"
+              BtnFW="500"
+              BtnDivH="52px"
+              BtnDivW="210px"
+              SmDH="[52px]"
+              SmDW="full"
+              BtnDivF="flex"
+              BtnDivJC="justify-center"
+            />
+          </Link>
         </div>
         <div className="sm-div w-full flex justify-center">
           <div className="absolute flex justify-between items-center w-[278px] h-[52px] mt-[299px] mx-[56px]">
