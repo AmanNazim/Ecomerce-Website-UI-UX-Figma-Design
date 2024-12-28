@@ -153,7 +153,7 @@ export default function ShopMenTShirts() {
           />
         </div>
         <div className="sm:w-full sm:flex sm:flex-row sm:gap-[24px]">
-          <div className="flex flex-col gap-[7px] res-div tab-div">
+          <div className="flex flex-col gap-[4px] res-div tab-div">
             <div className="w-[152px] h-[167px]">
               <Image
                 src="/images/one-life-graphic-t-shirt(1).svg"
@@ -449,7 +449,7 @@ export default function ShopMenTShirts() {
             </div>
           </div>
         </div>
-        <div className="lg:mt-[32px] lg:w-[1240px] lg:h-[765px] lg:grid lg:grid-cols-2 lg:gap-[21px] lg:mx-[13px] x-sm:w-full x-sm:h-auto x-sm:mt-[20px] x-sm:flex x-sm:flex-col x-sm:gap-[16px] x-sm:mx-[8px]">
+        <div className="lg:mt-[32px] lg:w-[1240px] lg:h-[765px] lg:grid lg:grid-cols-2 lg:gap-[21px] lg:mx-[13px] x-sm:w-full x-sm:h-auto x-sm:mt-[20px] x-sm:flex x-sm:flex-col x-sm:gap-[16px] x-sm:mx-[4px]">
           <CustomerReview
             CusName="Samantha D."
             CusRev="I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."
