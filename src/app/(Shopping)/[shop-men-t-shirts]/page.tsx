@@ -70,7 +70,7 @@ export default function ShopMenTShirts() {
       <hr className="border-[1px] border-[#000000] border-opacity-[10%] lg:mt-[24px] lg:mx-[13px] x-sm:mt-[20px] x-sm:mx-[16px]" />
       <div className="flex justify-between items-center lg:h-[22px] lg:w-[259px] lg:mt-[24px] lg:ml-[13px] x-sm:lg:h-[19px] x-sm:w-[215px] x-sm:mt-[20px] x-sm:ml-[16px]">
         <div className="flex justify-between items-center lg:w-[63px] lg:h-[16px] x-sm:w-[56px] x-sm:h-[14px]">
-          <h1 className="text-[#000000] text-opacity-[60%] font-[200] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px]">
+          <h1 className="text-[#000000] text-opacity-[60%] font-[400] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px]">
             Home
           </h1>
           <Image
@@ -84,7 +84,7 @@ export default function ShopMenTShirts() {
           />
         </div>
         <div className="flex justify-between items-center lg:w-[57px] lg:h-[16px] x-sm:w-[50px] x-sm:h-[14px]">
-          <h1 className="text-[#000000] text-opacity-[60%] font-[200] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px]">
+          <h1 className="text-[#000000] text-opacity-[60%] font-[400] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px]">
             Shop
           </h1>
           <Image
@@ -98,7 +98,7 @@ export default function ShopMenTShirts() {
           />
         </div>
         <div className="flex justify-between items-center lg:w-[51px] lg:h-[16px] x-sm:w-[46px] x-sm:h-[14px]">
-          <h1 className="text-[#000000] text-opacity-[60%] font-[200] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px]">
+          <h1 className="text-[#000000] text-opacity-[60%] font-[400] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px]">
             Men
           </h1>
           <Image
@@ -111,7 +111,7 @@ export default function ShopMenTShirts() {
             priority={true}
           />
         </div>
-        <h1 className="text-[#000000] font-[200] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px] lg:w-[53px] lg:h-[22px] x-sm:w-[47px] x-sm:h-[19px]">
+        <h1 className="text-[#000000] font-[400] lg:text-[16px] lg:leading-[21.6px] x-sm:text-[14px] x-sm:leading-[18.9px] lg:w-[53px] lg:h-[22px] x-sm:w-[47px] x-sm:h-[19px]">
           T-shirts
         </h1>
       </div>
@@ -153,7 +153,7 @@ export default function ShopMenTShirts() {
           />
         </div>
         <div className="sm:w-full sm:flex sm:flex-row sm:gap-[24px]">
-          <div className="flex flex-col gap-[14px] res-div tab-div">
+          <div className="flex flex-col gap-[7px] res-div tab-div">
             <div className="w-[152px] h-[167px]">
               <Image
                 src="/images/one-life-graphic-t-shirt(1).svg"
@@ -449,7 +449,7 @@ export default function ShopMenTShirts() {
             </div>
           </div>
         </div>
-        <div className="lg:mt-[32px] lg:w-[1240px] lg:h-[765px] lg:grid lg:grid-cols-2 lg:gap-[21px] lg:mx-[13px] x-sm:w-full x-sm:h-auto x-sm:mt-[20px] x-sm:flex x-sm:flex-col x-sm:gap-[16px] x-sm:mx-[16px]">
+        <div className="lg:mt-[32px] lg:w-[1240px] lg:h-[765px] lg:grid lg:grid-cols-2 lg:gap-[21px] lg:mx-[13px] x-sm:w-full x-sm:h-auto x-sm:mt-[20px] x-sm:flex x-sm:flex-col x-sm:gap-[16px] x-sm:mx-[8px]">
           <CustomerReview
             CusName="Samantha D."
             CusRev="I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."

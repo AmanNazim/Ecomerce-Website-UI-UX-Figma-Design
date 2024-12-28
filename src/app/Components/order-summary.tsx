@@ -82,12 +82,12 @@ export default function OrderSummary(OrderDetails: OrderDetailsProps) {
           />
         </div>
       </div>
-      <div className="w-full lg:h-[60px] sm:h-[56px] x-sm:h-[54px]">
+      <div className="w-full h-[60px] sm:h-[56px] x-sm:h-[54px]">
         <Btn
           BtnTxt="Go to Checkout"
           BtnCol="#000000"
           BtnTxtCol="#FFFFFF"
-          BtnH="[60px]"
+          BtnH="60px"
           BtnW="full"
           BtnTxtS="16px"
           BtnFW="500"
