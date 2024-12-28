@@ -126,7 +126,7 @@ export default function ShopMenTShirts() {
             priority={true}
           />
         </div>
-        <div className="sm-div w-full flex gap-[12px] mt-[12px] scrollbar">
+        <div className="sm-div w-full flex gap-[6px] mt-[12px] scrollbar">
           <Image
             src="/images/one-line-t-shirt-mobile(2).svg"
             width={111}
@@ -153,7 +153,7 @@ export default function ShopMenTShirts() {
           />
         </div>
         <div className="sm:w-full sm:flex sm:flex-row sm:gap-[24px]">
-          <div className="flex flex-col gap-[4px] res-div tab-div">
+          <div className="flex flex-col gap-[16px] res-div tab-div">
             <div className="w-[152px] h-[167px]">
               <Image
                 src="/images/one-life-graphic-t-shirt(1).svg"
@@ -469,7 +469,7 @@ export default function ShopMenTShirts() {
             PostDC="Posted on August 14, 2023"
             //small screen heights and widths
             SmMainH="244px"
-            SmMainW="358px"
+            SmMainW="320px"
             SmRevH="174px"
             SmRevW="310px"
           />
@@ -492,7 +492,7 @@ export default function ShopMenTShirts() {
             PostDC="Posted on August 15, 2023"
             //small screen heights and widths
             SmMainH="244px"
-            SmMainW="358px"
+            SmMainW="320px"
             SmRevH="174px"
             SmRevW="310px"
           />
@@ -515,7 +515,7 @@ export default function ShopMenTShirts() {
             PostDC="Posted on August 16, 2023"
             //small screen heights and widths
             SmMainH="244px"
-            SmMainW="358px"
+            SmMainW="320px"
             SmRevH="174px"
             SmRevW="310px"
           />
@@ -539,7 +539,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 17, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="358px"
+              SmMainW="320px"
               SmRevH="174px"
               SmRevW="310px"
             />
@@ -564,7 +564,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 18, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="358px"
+              SmMainW="320px"
               SmRevH="174px"
               SmRevW="310px"
             />
@@ -589,7 +589,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 19, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="358px"
+              SmMainW="320px"
               SmRevH="174px"
               SmRevW="310px"
             />
