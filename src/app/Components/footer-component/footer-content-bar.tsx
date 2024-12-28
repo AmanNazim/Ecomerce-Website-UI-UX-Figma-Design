@@ -17,7 +17,7 @@ const FooterContentBar = ({ footerContent }: FooterContentBarProps) => {
     <div
       className="
     lg:h-[177px] 
-    lg:w-[879.25] flex items-center 
+    lg:w-[879.25px] flex items-center 
     lg:justify-between 
     lg:flex-nowrap x-sm:w-full x-sm:h-auto x-sm:flex-wrap"
     >

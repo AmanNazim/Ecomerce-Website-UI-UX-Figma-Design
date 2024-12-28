@@ -7,7 +7,7 @@ interface propsType {
 
 const TopNavBar = ({ proptext, propboldtext }: propsType) => {
   return (
-    <div className="fixed top-[0px] z-[1] w-screen bg-[#000000] text-[#FFFFFF] flex items-center justify-center lg:h-[38px] sm:h-[36px] x-sm:h-[34px]">
+    <div className="fixed top-[0px] z-[1] w-full bg-[#000000] text-[#FFFFFF] flex items-center justify-center lg:h-[38px] sm:h-[36px] x-sm:h-[34px]">
       <div className="lg:h-[19px] w-full flex justify-center">
         <p className="lg:w-max lg:font-[400] lg:text-[14px] x-sm:h-[16px] x-sm:text-[12px] x-sm:flex lg:leading-[18.9px] x-sm:w-[301px]">
           {proptext}

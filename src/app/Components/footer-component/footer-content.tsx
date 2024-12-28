@@ -18,7 +18,7 @@ export const FooterContent = ({
   return (
     <div>
       <div
-        className={`flex flex-col lg:h-full lg:w-[${MdSW}] lg:gap-[26px] lg:mt-0 x-sm:gap-[16px] x-sm:h-[146px] x-sm:w-[162px] x-sm:mt-[25px]`}
+        className={`flex flex-col lg:h-full lg:w-[${MdSW}] lg:gap-[26px] lg:mt-0 x-sm:gap-[16px] x-sm:h-[146px] x-sm:w-[160px] x-sm:mt-[25px]`}
       >
         <h1 className="tracking-[3px] text-[#000000] font-[600] h-[18px] leading-[18px] lg:text-[16px] lg:leading-[18px] x-sm:text-[14px]">
           {HName}

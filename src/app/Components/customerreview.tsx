@@ -119,8 +119,8 @@ const CustomerReview = ({
           />
         </div>
         <div style={{ width: revHW.width, height: revHW.height }}>
-          <p className="text-start text-[#000000] text-opacity-[50%] font-[100] lg:mt-[13px] lg:text-[16px] x-sm:text-[14px] x-sm:mt-[10px]">
-            !&quot;{CusRev}!&quot;
+          <p className="text-start text-[#000000] text-opacity-[50%] font-[400] lg:mt-[13px] lg:text-[16px] x-sm:text-[14px] x-sm:mt-[10px]">
+            &quot;{CusRev}&quot;
           </p>
         </div>
       </div>

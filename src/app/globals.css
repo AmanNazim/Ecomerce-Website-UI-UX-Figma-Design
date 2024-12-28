@@ -28,10 +28,6 @@ html {
   box-sizing: inherit;
 }
 
-.debug * {
-  outline: 1px solid red; /* Add borders to see where spacing issues occur */
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
