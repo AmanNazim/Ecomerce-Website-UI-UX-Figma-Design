@@ -30,7 +30,7 @@ export const ShopItems = ({ shopItems }: ShopItemsProps) => {
     <div className="w-full flex flex-wrap gap-[14px] justify-center">
       {shopItems.map((item, index) => (
         <div key={index} {...item}>
-          <div className="h-auto lg:w-[295px] x-sm:w-[172px]">
+          <div className="h-auto lg:w-[295px] x-sm:w-[166px]">
             <div className="w-full bg-[#F0EEED] flex justify-center items-center lg:h-[295px] lg:rounded-[20px] x-sm:h-[174px] x-sm:rounded-[13.42px] overflow-hidden">
               <Image
                 className={`lg:rounded-[20px] x-sm:rounded-[13.42px]`}

@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
 import { DisBadge } from "../../Components/discountbadge";
 import Btn from "../../Components/button";
 import CustomerReview from "../../Components/customerreview";
 import ViewAllBtn from "../../Components/viewallbutton";
+import { useState } from "react";
 import { ShopItemsBar } from "../../Components/shopitemsbar";
 
 const youMightAlsoLikeThis = [
@@ -64,7 +66,19 @@ const youMightAlsoLikeThis = [
   },
 ];
 
+const sizes = [
+  { label: "Small", width: "84px" },
+  { label: "Medium", width: "105px" },
+  { label: "Large", width: "89px" },
+  { label: "X-Large", width: "104px" },
+];
+
 export default function ShopMenTShirts() {
+  const [selectedSize, setSelectedSize] = useState<string | null>(null);
+
+  const handleClick = (label: string) => {
+    setSelectedSize(label);
+  };
   return (
     <div>
       <hr className="border-[1px] border-[#000000] border-opacity-[10%] lg:mt-[24px] lg:mx-[13px] x-sm:mt-[20px] x-sm:mx-[16px]" />
@@ -258,68 +272,32 @@ export default function ShopMenTShirts() {
             Choose Size
           </p>
           <div className="mt-[16px] flex lg:gap-[12px] lg:h-[46px] lg:w-[420px] x-sm:gap-[8px] x-sm:h-[39px] x-sm:w-full">
-            <div className="h-[46px] w-[86px]">
-              <Btn
-                BtnTxt="Small"
-                BtnCol="#F0F0F0"
-                BtnTxtCol="#000000"
-                BtnH="46px"
-                BtnW="full"
-                BtnTxtS="16px"
-                BtnFW="400"
-                BtnDivH="46px"
-                BtnDivW="86px"
-                BtnDivF="flex"
-                BtnDivJC="justify-center"
-                BtnTxtOp="60%"
-              />
-            </div>
-            <div className="h-[46px] w-[105px]">
-              <Btn
-                BtnTxt="Medium"
-                BtnCol="#F0F0F0"
-                BtnTxtCol="#000000"
-                BtnH="46px"
-                BtnW="full"
-                BtnTxtS="16px"
-                BtnFW="400"
-                BtnDivH="46px"
-                BtnDivW="105px"
-                BtnDivF="flex"
-                BtnDivJC="justify-center"
-                BtnTxtOp="60%"
-              />
-            </div>
-            <div className="h-[46px] w-[89px]">
-              <Btn
-                BtnTxt="Large"
-                BtnCol="#000000"
-                BtnTxtCol="#FFFFFF"
-                BtnH="46px"
-                BtnW="full"
-                BtnTxtS="16px"
-                BtnFW="400"
-                BtnDivH="46px"
-                BtnDivW="89px"
-                BtnDivF="flex"
-                BtnDivJC="justify-center"
-              />
-            </div>
-            <div className="h-[46px] w-[104px]">
-              <Btn
-                BtnTxt="X-Large"
-                BtnCol="#F0F0F0"
-                BtnTxtCol="#000000"
-                BtnH="46px"
-                BtnW="full"
-                BtnTxtS="16px"
-                BtnFW="400"
-                BtnDivH="46px"
-                BtnDivW="104px"
-                BtnDivF="flex"
-                BtnDivJC="justify-center"
-                BtnTxtOp="60%"
-              />
+            <div className="w-full h-[46px]">
+              {sizes.map((size) => (
+                <div
+                  key={size.label}
+                  className="h-[39px]"
+                  style={{ width: size.width }}
+                >
+                  <Btn
+                    BtnTxt={size.label}
+                    BtnCol={selectedSize === size.label ? "#000000" : "#F0F0F0"}
+                    BtnTxtCol={
+                      selectedSize === size.label ? "#FFFFFF" : "#000000"
+                    }
+                    BtnH="46px"
+                    BtnW="full"
+                    BtnTxtS="16px"
+                    BtnFW="400"
+                    BtnDivH="46px"
+                    BtnDivW={size.width}
+                    BtnDivF="flex"
+                    BtnDivJC="justify-center"
+                    BtnTxtOp={selectedSize === size.label ? "0%" : "60%"}
+                    onClick={() => handleClick(size.label)} // Set the selected size
+                  />
+                </div>
+              ))}
             </div>
           </div>
           <hr className="border-[1px] border-[#000000] border-opacity-[10%] mt-[24px]" />
@@ -449,7 +427,7 @@ export default function ShopMenTShirts() {
             </div>
           </div>
         </div>
-        <div className="lg:mt-[32px] lg:w-[1240px] lg:h-[765px] lg:grid lg:grid-cols-2 lg:gap-[21px] lg:mx-[13px] x-sm:w-full x-sm:h-auto x-sm:mt-[20px] x-sm:flex x-sm:flex-col x-sm:gap-[16px] x-sm:mx-[4px]">
+        <div className="lg:mt-[32px] lg:w-[1240px] lg:h-[765px] lg:grid lg:grid-cols-2 lg:gap-[21px] lg:mx-[13px] x-sm:w-full x-sm:h-auto x-sm:mt-[20px] x-sm:flex x-sm:flex-col x-sm:gap-[16px] x-sm:mx-[12px]">
           <CustomerReview
             CusName="Samantha D."
             CusRev="I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."
@@ -539,7 +517,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 17, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="320px"
+              SmMainW="330px"
               SmRevH="174px"
               SmRevW="310px"
             />
@@ -564,7 +542,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 18, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="320px"
+              SmMainW="330px"
               SmRevH="174px"
               SmRevW="310px"
             />
@@ -589,7 +567,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 19, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="320px"
+              SmMainW="330px"
               SmRevH="174px"
               SmRevW="310px"
             />
