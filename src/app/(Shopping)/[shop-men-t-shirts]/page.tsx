@@ -271,8 +271,8 @@ export default function ShopMenTShirts() {
           <p className="text-[#000000] text-opacity-[60%] font-[400] mt-[24px] lg:h-[11px] lg:text-[16px] lg:leading-[21.6px] x-sm:h-[10px] x-sm:text-[14px] x-sm:leading-[18.9px]">
             Choose Size
           </p>
-          <div className="mt-[16px] flex lg:gap-[12px] lg:h-[46px] lg:w-[420px] x-sm:gap-[8px] x-sm:h-[39px] x-sm:w-full">
-            <div className="w-full h-[46px]">
+          <div className="mt-[16px]">
+            <div className="flex lg:gap-[12px] lg:h-[46px] lg:w-[420px] x-sm:gap-[8px] x-sm:h-[39px] x-sm:w-full">
               {sizes.map((size) => (
                 <div
                   key={size.label}
@@ -447,7 +447,7 @@ export default function ShopMenTShirts() {
             PostDC="Posted on August 14, 2023"
             //small screen heights and widths
             SmMainH="244px"
-            SmMainW="320px"
+            SmMainW="340px"
             SmRevH="174px"
             SmRevW="310px"
           />
@@ -470,7 +470,7 @@ export default function ShopMenTShirts() {
             PostDC="Posted on August 15, 2023"
             //small screen heights and widths
             SmMainH="244px"
-            SmMainW="320px"
+            SmMainW="340px"
             SmRevH="174px"
             SmRevW="310px"
           />
@@ -493,7 +493,7 @@ export default function ShopMenTShirts() {
             PostDC="Posted on August 16, 2023"
             //small screen heights and widths
             SmMainH="244px"
-            SmMainW="320px"
+            SmMainW="340px"
             SmRevH="174px"
             SmRevW="310px"
           />
@@ -517,7 +517,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 17, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="330px"
+              SmMainW="340px"
               SmRevH="174px"
               SmRevW="310px"
             />
@@ -542,7 +542,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 18, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="330px"
+              SmMainW="340px"
               SmRevH="174px"
               SmRevW="310px"
             />
@@ -567,7 +567,7 @@ export default function ShopMenTShirts() {
               PostDC="Posted on August 19, 2023"
               //small screen heights and widths
               SmMainH="244px"
-              SmMainW="330px"
+              SmMainW="340px"
               SmRevH="174px"
               SmRevW="310px"
             />
