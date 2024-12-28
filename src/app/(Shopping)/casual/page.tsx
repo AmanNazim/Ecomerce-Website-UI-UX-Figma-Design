@@ -592,7 +592,7 @@ export default function Casual() {
           <div className="w-full mt-[16px] flex flex-col -ml-[10px] gap-[36px] res-div">
             <ShopItems shopItems={shopItemsDeskCasual} />
           </div>
-          <div className="w-full mob-tab mt-[29px] mx-[16px]">
+          <div className="w-full mob-tab mt-[29px] mr-[16px]">
             <ShopItems shopItems={shopItemsMobCasual} />
           </div>
           <hr className="border-[1px] border-[#000000] border-opacity-[10%] lg:mt-[32px] lg:mr-[20px] x-sm:mt-[24px] x-sm:mr-[32px]" />
