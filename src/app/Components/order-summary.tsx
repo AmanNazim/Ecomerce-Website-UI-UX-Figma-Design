@@ -87,7 +87,7 @@ export default function OrderSummary(OrderDetails: OrderDetailsProps) {
           BtnTxt="Go to Checkout"
           BtnCol="#000000"
           BtnTxtCol="#FFFFFF"
-          BtnH="full"
+          BtnH="[60px]"
           BtnW="full"
           BtnTxtS="16px"
           BtnFW="500"
