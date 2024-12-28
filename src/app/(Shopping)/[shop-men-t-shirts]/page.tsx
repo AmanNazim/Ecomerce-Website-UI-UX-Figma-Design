@@ -271,12 +271,12 @@ export default function ShopMenTShirts() {
           <p className="text-[#000000] text-opacity-[60%] font-[400] mt-[24px] lg:h-[11px] lg:text-[16px] lg:leading-[21.6px] x-sm:h-[10px] x-sm:text-[14px] x-sm:leading-[18.9px]">
             Choose Size
           </p>
-          <div className="mt-[16px]">
-            <div className="flex lg:gap-[12px] lg:h-[46px] lg:w-[420px] x-sm:gap-[8px] x-sm:h-[39px] x-sm:w-full">
+          <div className="">
+            <div className="mt-[16px] flex lg:gap-[12px] lg:h-[46px] lg:w-[420px] x-sm:gap-[8px] x-sm:h-[39px] x-sm:w-full">
               {sizes.map((size) => (
                 <div
                   key={size.label}
-                  className="h-[39px]"
+                  className="h-[46px]"
                   style={{ width: size.width }}
                 >
                   <Btn
@@ -285,7 +285,7 @@ export default function ShopMenTShirts() {
                     BtnTxtCol={
                       selectedSize === size.label ? "#FFFFFF" : "#000000"
                     }
-                    BtnH="46px"
+                    BtnH="full"
                     BtnW="full"
                     BtnTxtS="16px"
                     BtnFW="400"
