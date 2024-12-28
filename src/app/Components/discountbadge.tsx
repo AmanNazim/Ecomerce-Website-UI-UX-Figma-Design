@@ -1,5 +1,3 @@
-import ShopBtn from "./button";
-
 interface BadgeProps {
   text: string;
   // bgColor?: string;// Default to a light red

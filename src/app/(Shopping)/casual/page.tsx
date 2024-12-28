@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Btn from "@/app/Components/button";
-import { ShopItemsBar } from "@/app/Components/shopitemsbar";
 import { useState } from "react";
 import { ShopItems } from "@/app/Components/shop-items";
 import FilterButton from "@/app/Components/filter-button";

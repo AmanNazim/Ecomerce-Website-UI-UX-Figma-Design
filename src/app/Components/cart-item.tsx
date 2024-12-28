@@ -1,4 +1,3 @@
-import { TcpSocketConnectOpts } from "net";
 import Image from "next/image";
 
 interface CartItemProps {

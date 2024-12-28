@@ -2,17 +2,11 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Btn from "./button";
-import { SetStateAction } from "react";
 import { Categories } from "./filter -components/categories";
 import ColorSelection from "./filter -components/color-selection";
 import SizeSelection from "./filter -components/size-selection";
 import DressStyleSelection from "./filter -components/dress-style-selection";
 import PriceSelection from "./filter -components/price-selection";
-
-type Color = {
-  id: number;
-  bgColor: string;
-};
 
 const FilterPanel: React.FC<{ toggleFilter: () => void }> = ({
   toggleFilter,

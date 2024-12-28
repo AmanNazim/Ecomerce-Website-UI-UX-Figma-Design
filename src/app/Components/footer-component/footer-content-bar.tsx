@@ -2,7 +2,7 @@ import { FooterContent } from "./footer-content";
 
 interface FooterContentBarProps {
   footerContent: {
-    HName: String;
+    HName: string;
     RName1: string;
     RName2: string;
     RName3: string;

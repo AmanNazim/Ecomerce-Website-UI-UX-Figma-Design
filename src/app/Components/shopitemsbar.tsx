@@ -2,7 +2,7 @@ import ShopItem from "./shopitem";
 
 interface ShopItemsBarProps {
   shopItems: {
-    id?: String;
+    id?: string;
     imgUrl: string;
     imgW: number;
     imgH: number;

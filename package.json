@@ -23,5 +23,18 @@
     "eslint": "^9",
     "eslint-config-next": "15.1.0",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "description": "<<<<<<< HEAD\r # Ecomerce-Website-UI-UX-Figma-Design\r Hey! this is a Figma design replication pixel-perfect. Complete UI and UX website using Next Js, Tailwind CSS, TypeScript, HTML and Vanilla CSS.\r =======\r This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanNazim/Ecomerce-Website-UI-UX-Figma-Design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanNazim/Ecomerce-Website-UI-UX-Figma-Design/issues"
+  },
+  "homepage": "https://github.com/AmanNazim/Ecomerce-Website-UI-UX-Figma-Design#readme"
 }

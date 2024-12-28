@@ -1,6 +1,5 @@
 import CartItem from "@/app/Components/cart-item";
 import Image from "next/image";
-import Btn from "@/app/Components/button";
 import OrderSummary from "@/app/Components/order-summary";
 
 export default function CartPage() {

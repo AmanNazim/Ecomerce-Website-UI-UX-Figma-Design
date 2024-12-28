@@ -1,10 +1,9 @@
 interface FooterContentBarProps {
-  HName: String;
+  HName: string;
   RName1: string;
   RName2: string;
   RName3: string;
   RName4: string;
-  SmSW: string;
   MdSW: string;
 }
 
@@ -14,7 +13,6 @@ export const FooterContent = ({
   RName2,
   RName3,
   RName4,
-  SmSW,
   MdSW,
 }: FooterContentBarProps) => {
   return (
