@@ -62,11 +62,14 @@ export const Footer = () => {
               />
               <input
                 type="text"
-                className="text-[#000000] text-opacity-[40%] bg-[#ffffff] font-[400] lg:w-full lg:h-[22px] lg:text-[16px] lg:leading-[21.6px] x-sm:w-full x-sm:h-[19px] x-sm:text-[14px] x-sm:leading-[18.9px]"
+                className="p-2 text-[#000000] text-opacity-[40%] bg-[#ffffff] font-[400] lg:w-full lg:h-[22px] lg:text-[16px] lg:leading-[21.6px] x-sm:w-full x-sm:h-[19px] x-sm:text-[14px] x-sm:leading-[18.9px]"
                 placeholder="Enter your email address"
               />
             </div>
-            <button className="text-[#000000] font-[500] rounded-[62px] bg-[#FFFFFF] px-[16px] py-[12px] lg:w-[349px] lg:h-[46px] lg:text-[16px] x-sm:w-[311px] x-sm:h-[42px] x-sm:text-[14px]">
+            <button
+              type="submit"
+              className="text-[#000000] font-[500] rounded-[62px] bg-[#FFFFFF] px-[16px] py-[12px] lg:w-[349px] lg:h-[46px] lg:text-[16px] x-sm:w-[311px] x-sm:h-[42px] x-sm:text-[14px]"
+            >
               Subscribe to Newsletter
             </button>
           </div>

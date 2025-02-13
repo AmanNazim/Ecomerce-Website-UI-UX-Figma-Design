@@ -1,3 +1,4 @@
+"use client";
 import CustomerReview from "./customerreview";
 
 interface CusRevBarProps {

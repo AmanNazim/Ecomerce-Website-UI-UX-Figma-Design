@@ -16,6 +16,7 @@ interface ShopItemsBarProps {
     imgPrice: string;
     imgDelPrice?: string;
     imgDecDis?: string;
+    productDetailPageLink?: string;
   }[];
 }
 

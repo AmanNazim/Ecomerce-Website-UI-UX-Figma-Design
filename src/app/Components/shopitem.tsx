@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 interface ShopItemProps {
@@ -14,6 +15,7 @@ interface ShopItemProps {
   imgPrice: string;
   imgDelPrice?: string;
   imgDecDis?: string;
+  productDetailPageLink?: string;
 }
 
 const Badge = ({ text }: { text: string }) => (
@@ -36,20 +38,23 @@ const ShopItem = ({
   imgPrice,
   imgDelPrice,
   imgDecDis,
+  productDetailPageLink,
 }: ShopItemProps) => {
   return (
     <div className="h-auto lg:w-[295px] x-sm:w-[198px]">
-      <div className="w-full bg-[#F0EEED] flex justify-center items-center lg:h-[295px] lg:rounded-[20px] x-sm:h-[200.01px] x-sm:rounded-[13.42px] overflow-hidden">
-        <Image
-          className={`lg:rounded-[20px] x-sm:rounded-[13.42px] `}
-          src={imgUrl}
-          width={imgW}
-          height={imgH}
-          alt={imgAlt}
-          quality={100}
-          priority={true}
-          layout="responsive"
-        />
+      <div className="w-full bg-[#F0EEED] mt-[4px] flex justify-center items-center lg:h-[295px] lg:rounded-[20px] x-sm:h-[200.01px] x-sm:rounded-[13.42px] overflow-hidden hover:scale-[102%] ">
+        <Link href={productDetailPageLink || ""}>
+          <Image
+            className={`lg:rounded-[20px] x-sm:rounded-[13.42px] `}
+            src={imgUrl}
+            width={imgW}
+            height={imgH}
+            alt={imgAlt}
+            quality={100}
+            priority
+            style={{ objectFit: "cover" }}
+          />
+        </Link>
       </div>
 
       <div className="lg:h-[94px] lg:mt-[16px] x-sm:h-[73px] x-sm:mt-[10px]">

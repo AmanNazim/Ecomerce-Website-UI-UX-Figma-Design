@@ -1,4 +1,6 @@
+import Link from "next/link";
 import Image from "next/image";
+import { Url } from "next/dist/shared/lib/router/router";
 
 interface ShopItemsProps {
   shopItems: {
@@ -16,6 +18,7 @@ interface ShopItemsProps {
     imgprice: string;
     imgdelprice?: string;
     imgdecdis?: string;
+    productDetailPageLink?: Url;
   }[];
 }
 
@@ -31,17 +34,19 @@ export const ShopItems = ({ shopItems }: ShopItemsProps) => {
       {shopItems.map((item, index) => (
         <div key={index} {...item}>
           <div className="h-auto lg:w-[295px] x-sm:w-[166px]">
-            <div className="w-full bg-[#F0EEED] flex justify-center items-center lg:h-[295px] lg:rounded-[20px] x-sm:h-[174px] x-sm:rounded-[13.42px] overflow-hidden">
-              <Image
-                className={`lg:rounded-[20px] x-sm:rounded-[13.42px]`}
-                src={item.imgurl}
-                width={item.imgw}
-                height={item.imgh}
-                alt={item.imgalt}
-                quality={100}
-                priority={true}
-                layout="responsive"
-              />
+            <div className="w-full bg-[#F0EEED] flex justify-center items-center lg:h-[295px] lg:rounded-[20px] x-sm:h-[174px] x-sm:rounded-[13.42px] overflow-hidden hover:scale-[102%] ">
+              <Link href={`${item.productDetailPageLink}`}>
+                <Image
+                  className={`lg:rounded-[20px] x-sm:rounded-[13.42px]`}
+                  src={item.imgurl}
+                  width={item.imgw}
+                  height={item.imgh}
+                  alt={item.imgalt}
+                  quality={100}
+                  priority={true}
+                  layout="responsive"
+                />
+              </Link>
             </div>
 
             <div className="lg:h-[94px] lg:mt-[16px] x-sm:h-[73px] x-sm:mt-[10px]">

@@ -1,5 +1,16 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu";
 
 const NavBar = () => {
   return (
@@ -31,18 +42,17 @@ const NavBar = () => {
       </div>
       <div className="w-[321px] h-[22px] res-div lg:flex justify-between">
         <div className="w-[57px] h-[22px] flex justify-between items-center">
-          <Link href="/shop-men-t-shirts/">
-            <h2 className="text-[16px] font-[400] leading-[21.6px]">Shop</h2>
-          </Link>
-          <Image
-            className="h-[16px] w-[16px]"
-            src="/icon-images/down-arrow.svg"
-            width={11}
-            height={6}
-            alt="arrow icon"
-            quality={100}
-            priority={true}
-          />
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>Shop</NavigationMenuTrigger>
+                <NavigationMenuContent className="h-[100px]">
+                  <NavigationMenuLink href="/mens">Men </NavigationMenuLink>
+                  Woman Kids
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
         </div>
         <h2 className="text-[16px] font-[400] leading-[21.6px]">On Sale</h2>
         <h2 className="text-[16px] font-[400] leading-[21.6px]">
