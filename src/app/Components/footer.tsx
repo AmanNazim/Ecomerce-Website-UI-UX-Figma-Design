@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import FooterContentBar from "./footer-component/footer-content-bar";
 

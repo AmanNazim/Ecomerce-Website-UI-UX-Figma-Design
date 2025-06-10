@@ -18,6 +18,7 @@ const TopNavBar = ({ proptext, propboldtext }: propsType) => {
       </div>
       <div className="w-[20px] res-div h-[20px] sm:mr-[16px] lg:mr-[30px]">
         <Image
+          style={{ width: "auto", height: "auto" }}
           src="/icon-images/cross-icon.svg"
           width={13.3}
           height={13.3}

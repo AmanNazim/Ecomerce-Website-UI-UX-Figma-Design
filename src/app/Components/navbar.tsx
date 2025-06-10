@@ -1,15 +1,14 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 
 const NavBar = () => {
@@ -35,7 +34,7 @@ const NavBar = () => {
               alt="Brand icon"
               quality={100}
               priority={true}
-              layout="responsive"
+              style={{ width: "auto", height: "auto" }}
             />
           </Link>
         </div>
@@ -89,7 +88,7 @@ const NavBar = () => {
           />
         </div>
         <Link href="/cart">
-          <div className="w-[24px] h-[24px]">
+          <div>
             <Image
               src="/icon-images/cart-icon.svg"
               width={24}
